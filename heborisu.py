@@ -8,7 +8,7 @@ GRID_SIZE = 30
 GRID_WIDTH, GRID_HEIGHT = WIDTH // GRID_SIZE, HEIGHT // GRID_SIZE
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 clock = pygame.time.Clock()
-rec = 0
+rec = 0　
 
 
 # テトリスのブロックの定義
@@ -75,7 +75,7 @@ def draw_text(screen, txt, x, y, col, fnt):
         引数4 y： y座標を計算
         引数5 col： 文字の色を指定
         引数6 fnt：文字のフォント
-        """
+        """　
         sur = fnt.render(txt, True, (255,255,255))
         x -= sur.get_width()/2
         y -= sur.get_height()/2
