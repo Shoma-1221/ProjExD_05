@@ -174,6 +174,9 @@ def run_game():
 
     pygame.quit()
     clock.tick(5)
+    if rec<=100:
+            clock.tick(10)
+    
 
 
 # ゲームの実行
