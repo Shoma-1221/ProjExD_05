@@ -93,7 +93,7 @@ def init_game():
     game_over = False
     return grid, tetrimino, game_over    
 
-# 行が揃っているかをチェックし、揃っている行を削除する
+# 行が揃っているかをチェックし、揃っている行を削除する  
 def check_lines(grid):
     full_rows = []
     for y, row in enumerate(grid):
