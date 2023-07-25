@@ -180,11 +180,11 @@ def run_game():
     elif rec<=200:
          clock.tick(5.4)
     elif rec<=300:
-         clock.tick(5.6)
-    elif rec<=400:
          clock.tick(5.8)
-    elif rec<=500:
+    elif rec<=400:
          clock.tick(6.0)
+    elif rec<=500:
+         clock.tick(7.0)
         
     
 
