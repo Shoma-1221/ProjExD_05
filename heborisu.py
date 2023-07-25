@@ -174,6 +174,7 @@ def run_game():
 
     pygame.quit()
     clock.tick(5)
+    
     if rec<=100:
             clock.tick(5.2)
     elif rec<=200:
